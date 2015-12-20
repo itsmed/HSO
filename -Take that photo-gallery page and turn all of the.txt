@@ -1,0 +1,10 @@
+-Take that photo-gallery page and turn all of the images into a carousel that plays on load on the home page.
+-Re-do the markets page to include a Google Maps api that shows the locations of each farmers' market so customers can visualize the distance to a market from their location
+-Use Bootstrap to redesign all of the other pages so the page is responsive and looks the same across all device/screen sizes
+-Create a products page that allows customers to view the products they have available 
+-Create an order form so customers can have unpaid orders shipped to their local farmers' market
+-Create an option in the order form so customers can pay for an order and have it shipped. ( Payment would be using a Square api, they already use Square, but we could use PayPal if necessary)
+-Any order placed should result in an email sent to the owners and their warehouse manager
+-Separately I would set up a stamps.com account for the owners 
+-Somehow create a shipping label automatically for paid orders, hopefully linked to their Stamps.com account so the shipping would be automatically calculated and paid for.
+Extra Credit would be to create an admin page that would allow the farm owners to update product availability without coding. That should be pretty simple using .append and other methods in jQuery.
