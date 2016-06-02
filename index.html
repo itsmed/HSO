@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 
 
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Hidden Star Orchards</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -30,6 +31,7 @@
         <div class="container nav-container">
             <div class="navbar-header">
                 <a href="index.html" class="navbar-brand">
+                    <img class="img-responsive" src="assets/hso-photos/hso-logo.png">
                 </a>
                 <a href="index.html" class="navbar-brand">Hidden Star Orchards</a>
 
@@ -37,7 +39,7 @@
                 <nav>
                 </div>
                 <ul class="nav nav-tabs nav-justified">
-                    <li><a href="pages/markets.html">Find Our Stuff</a>
+                    <li><a href="pages/markets.html">Locations</a>
                     </li>
                     <li><a href="pages/products.html">Products and Ordering</a>
                     </li>
@@ -49,12 +51,12 @@
                             </a>
 
                             <ul class="dropdown-menu" aria-labelledby="dLabel">
-                                <li>Our Story</li>
-                                <li>Partners</li>
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Partners</a></li>
                                 <li class="divider"></li>
-                                <li>Social Media</li>
+                                <li><a href="#">Social Media</a></li>
                                 <li class="divider"></li>
-                                <li>Contact Us</li>
+                                <li><a href="#">Contact Us</a></li>
                             </ul>
                         </div>
                     </li>
@@ -62,18 +64,67 @@
             </nav>
         </div>
     </div>
-    <div class="row">
-        <div class="header logo-container">
-            <!-- <div class="container hidden-xs col-sm-4">
-                <img src="assets/hso-photos/hso-logo.png" class="logo pull-left">
-            </div> -->
-            <div class="container col-xs-offset-4 col-sm-8">
-                <h1>Hidden Star Orchards</h1>
-            </div>
-            <div class="container col-xs-offset-4 col-sm-8">
-                <h2>A Family Farm and Cidery</h2>
+    <div class="row" id="main-banner">
+        <div class="header well-lg">
+            <div class="logo-container">
+                <div class="col-xs-offset-4 col-sm-8">
+                    <h1>Hidden Star Orchards</h1>
+                </div>
+                <div class="container col-xs-offset-4 col-sm-8">
+                    <h2>A Family Farm and Cidery</h2>
+                </div>
             </div>
         </div>
     </div>
+    <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+        <h3><a href="pages/markets.html">Farmers' Markets</a></h3>
+        <div>
+            <p>Insert Google Maps API Here!</p>
+        </div>
+        <ul class="nav">
+          <li class="active">
+            <div class="btn-group">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Weekdays <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Ferry Plaza, San Francisco, Tuesday</a></li>
+                <li><a href="#">Bolinas Park, Fairfax, Wednesday</a></li>
+                <li><a href="#">Civic Center, San Rafael, Thursday</a></li>
+                <li><a href="#">Alto Shopping Center, Mill Valley, Friday</a></li>
+                <li><a href="#">Ninth St, Oakland, Friday</a></li>
+            </ul>
+        </div>
+        <li>
+            <div class="btn-group">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Saturdays <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Ferry Plaza, San Francisco</a></li>
+                <li><a href="#">Noe Valley, San Francisco</a></li>
+                <li><a href="#">Larkspur Landing, Larkspur</a></li>
+                <li><a href="#">Grand Lake, Oakland</a></li>
+                <li><a href="#">City Hall Plaza, Hayward</a></li>
+            </ul>
+        </div>
+    </li>
+    <li>
+        <div class="btn-group">
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Sundays <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li><a href="#">Stonestown, San Francisco</a></li>
+            <li><a href="#">Clement St, San Francisco</a></li>
+            <li><a href="#">Civic Center, San Rafael</a></li>
+            <li><a href="#">California Ave, Palo Alto</a></li>
+            <li><a href="#">Campbell Ave, Camplbell</a></li>
+            <li><a href="#">Jack London Square, Oakland</a></li>
+        </ul>
+        </div>
+    </li>    
+    </ul>
+</div>
 </body>
 </html>

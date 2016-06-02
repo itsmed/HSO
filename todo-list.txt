@@ -1,0 +1,76 @@
+Create list of tickets on gitIssues
+  *List all features
+    *Breakdown features into bite sized pieces
+Get Collaborators to have a stand up, get full collaborator list
+Arrange stand up schedule
+Have first meeting!
+  Be honest about HSO and this project (no money, nothing confirmed from owners yet)
+"Pages":
+  Top Nav Bar -- should subsist across pages
+    links for locations (markets/stores), about, store
+  Splash page
+    They liked the idea of a image carousel
+    side bar
+      google maps imbed with market locations pinned
+        drop-down of markets below seperated by sat, sun, weekdays
+          selection opens tab, with link to market on hso, market association.
+          while a market is selected, embiggen the pin
+  Markets/Locations page
+    links to markets/locations with a photo
+    Should be able to filter by retail vs market
+    Only active markets/locations should be listed
+      Each Market/location
+        Should show location in gmaps iframe
+        Should show hours and location in text format
+  Contact page
+    contact form?
+    an email-to link
+  Products page/store
+    products
+      fruit
+        apples, pomegranates, grapes, blueberries cherries
+      juice and soft cider
+        mixtures of one of (all but blues) the above with apple or plain
+        3 sizes each
+      cider
+        hard cider in idk what flavors. also, maybe legal by now, but maybe bootlegging still
+      canned
+        apple sauce etc
+      dried
+        differing dried fruits 
+    store
+      no logins
+      square api preferred if exists, paypal if not
+      active products can be pre ordered for farmers markets
+      sub group of active products can be shipped
+      Accept payments and customer information (duh)
+  Do something with social media
+    ?
+  Admin page
+    General
+      No link, only accessible from https://.../admin?
+      Requires Auth (OAuth?)
+    Store
+      Should be able to mark items as active or inactive
+      Should be able to add items to store
+      Should be able to change items in store (price, description etc)
+      Should be able to remove items from store
+      Should be able to preview Store
+    Markets and locations
+      Should be able to add markets/locations
+      Should be able to remove items from markets/locations
+      Should be able to mark markets as in/active
+      Should be able to change details in markets (hours, description etc)
+      Should be able to preview Markets and locations
+
+
+
+
+
+
+
+
+
+
+
+

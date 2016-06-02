@@ -8,3 +8,80 @@
 -Separately I would set up a stamps.com account for the owners 
 -Somehow create a shipping label automatically for paid orders, hopefully linked to their Stamps.com account so the shipping would be automatically calculated and paid for.
 Extra Credit would be to create an admin page that would allow the farm owners to update product availability without coding. That should be pretty simple using .append and other methods in jQuery.
+
+
+Farmers' Market Information: 
+
+San Francisco Ferry Plaza Farmers' Market
+Saturday 8am-2pm.
+Tuesday 8am-2pm.
+Along the Embarcadero at the foot of Market Street.
+Year 'round.
+
+San Francisco Noe Valley Farmers' Market 
+Saturday 8am-1pm.
+3861 24th Street between Sanchez 
+and Vicksburg Streets.
+Year 'round.
+
+San Francisco Stonestown Farmers' Market 
+Sunday 9am-1pm.
+Stonestown Galleria parking lot.
+3251 20th Avenue.
+Year 'round.
+
+San Francisco Clement Farmers' Market
+Sunday 9am-2pm.
+200 Clement Street.
+Year 'round.
+
+San Rafael Farmers' Market
+Sunday 8am-1pm.
+Parking lot behind the Marin Civic Center.
+Thursday 8am-1pm.
+Marin Veteran's Memorial Auditorium parking lot.
+Year 'round.
+
+Mill Valley Farmers' Market
+Friday 9:30am-2:30pm.
+Alto Shopping Center, CVS Parking Lot.
+759 Blithedale Avenue.
+Year 'round.
+
+Larkspur Farmers' Market 
+Saturday 9am-2pm.
+2257 Larkspur Landing Circle.
+Year 'round.
+
+Fairfax Farmers' Market 
+Wednesday evening 4pm-8pm. 
+Bolinas Park in the town of Fairfax.
+May through Sept.
+
+Palo Alto Farmers' Market 
+Sunday 8am-1pm.
+California Ave at El Camino.
+Year' round.
+
+Campbell Farmers' Market
+Sunday 9am-1pm.
+Campbell Avenue at Central Avenue.
+Year 'round.
+
+Oakland Farmers' Market 
+Saturday 9am-2pm.
+Splash Pad Park across from the Grand Lakes Theatre.
+Year 'round.
+
+Old Oakland Farmers' Market
+Friday 8am-2pm.
+Ninth Street between Broadway and Clay.
+Year 'round.
+
+Hayward Farmers' Market
+Saturday 9am-1pm.
+Hayward City Hall Plaza
+777 B Street.
+Year' round.
+
+
