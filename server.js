@@ -1,7 +1,7 @@
+'use strict';
 /*
 This is a node server using expressjs. If unfamailar with aspects of node servers, please checkout the docs at https://nodejs.org/en/docs/
 */
-'use strict';
 const express = require('express');
 const path = require('path');
 // webpack will serve from the development server unless proxied, hence using http-proxy
@@ -37,12 +37,12 @@ if (!isProduction) {
   });
 }
 proxy.on('error', (e) => {
-  console.warn('Could not connect to proxy, please try again. Error: ', e);
+  console.warn('Could not connect to proxy, please try again. Error: %s', e);
 });
 
 // spin up the server
 app.listen(port, () => {
-  console.log('Server running on port ' +port);
+  console.log('Server running on port %s', port);
 });
 
 // catch all other GET requests, such as when refreshing

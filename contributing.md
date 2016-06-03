@@ -13,7 +13,6 @@ MondoDB - Storage <br />
 O-Auth - Security
 
 ###Work Flow
-Please fork the repo from the "dev" branch. All pull requests should be submitted to the "dev" branch. <br />
 Source code should be in src folder, tests in test folder. <br />
 Tickets and issues are in the waffle.io board. Please grab/submit tickets there, though they should be integrated through gitissues as well. <br />
 ####ES6
@@ -30,7 +29,7 @@ Sass Mixins and functions should be in src/styles/sass-mix-func.scss This will a
 ###Testing
 Please write tests using for all features created, ensuring they pass before submitting a pull request. <br />
 All features should be end-to-end tested. <br />
-Please keep all tests in test folder. The test folder should mimic the src folder exactly, with folders and file names of test files corresponding to what is being tested in src folder (ie: src/components/Store.js should be tested in test/components/Store.js).
+Please keep all tests in test folder. The test folder should mimic the root folder exactly, with folders and file names of test files corresponding to what is being tested in src folder (ie: hso/src/components/Store.js should be tested in test/src/components/Store.js).
 ###Comments
 Please keep in mind that this project may be inherited by other devs, or that we ourselves on the current team may forget what aspects of code are supposed to do. <br />
 With that in mind, please comment code, following best practices.

@@ -1,3 +1,4 @@
+'use strict';
 const Webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
 const WebpackConfig = require('../webpack.config.js');
@@ -7,7 +8,7 @@ const fs = require('fs');
 module.exports = function () {
   // First we fire up Webpack an pass in the configuration we
   // created
-  const bundleStart = null;
+  let bundleStart = null;
   const compiler = Webpack(WebpackConfig);
 
   // We give notice in the terminal when it starts bundling and
