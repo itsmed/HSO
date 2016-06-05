@@ -1,1 +1,15 @@
-//Created to get folder structure into git. Feel free to delete/replace/rename this file and include acutal code!
+import React, { Component } from 'react';
+
+
+import Header from './components/header/Header';
+
+export default class App extends Component {
+
+  render() {
+
+    return <div>
+      <Header />
+      Hello Worlds!
+    </div>;
+  }
+}
