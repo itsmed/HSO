@@ -1,4 +1,4 @@
-#Hidden Star Orchards
+
 ##Contribution Guidelines
 <hr />
 ###Tech Stack
@@ -33,4 +33,4 @@ Please keep all tests in test folder. The test folder should mimic the root fold
 ###Comments
 Please keep in mind that this project may be inherited by other devs, or that we ourselves on the current team may forget what aspects of code are supposed to do. <br />
 With that in mind, please comment code, following best practices.
-####Thanks for reading, and happy hacking!
+####Thanks for reading, and happy hacking!!
