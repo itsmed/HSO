@@ -1,4 +1,4 @@
-# HSO
+# HSO!!
 ##  A new website for hidden star orchards
 Hidden Star Orchards is a small family farm and cidery serving the SF Bay Area. 
 This is an e-commerce web-store built with React, Redux, Sass, Webpack, Express, O-Auth and Mongodb. Mocha and Chai are used for testing.
